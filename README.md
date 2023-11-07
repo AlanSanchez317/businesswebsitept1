@@ -62,3 +62,5 @@ Logo and fav icon design
 Functionality and usability
 Documentation and organization
 Have fun with this assignment, and be creative in your design choices. Ensure that your website reflects the chosen business's brand and values.
+
+:3
