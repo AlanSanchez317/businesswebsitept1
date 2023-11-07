@@ -2,7 +2,7 @@
 
 The objective of this assignment is to design a fully functional and visually appealing website for a business of your choice. You will create at least three pages, including a home page ('index.html'), a gallery page, and a Contact Us page. In addition, you are encouraged to create extra pages, such as an order page, an about us page, and more, to enhance the user experience and provide essential information about the business. You will also design a custom logo and incorporate fav icons for branding.
 
-# Requirements:
+Requirements:
 
 # Business Selection:
 
@@ -53,7 +53,7 @@ Submit your web design project as a git hub link containing all HTML, CSS, image
 
 # Grading:
 
-# Your assignment will be graded based on the following criteria:
+Your assignment will be graded based on the following criteria:
 
 Visual design and user experience
 HTML and CSS quality
