@@ -273,3 +273,80 @@ input::placeholder{
     color:#b60d0d;
     font-size: xx-large;
 }
+
+.gametitle{
+    text-align: center;
+    color:#b60d0d;
+    font-size: xx-large;
+}
+
+.gamegrid{
+    display: grid;
+    grid-template-rows: [one] 1fr [two] 1fr [three] 1fr [four];
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [end];
+    padding: 5px;
+    gap: [ row gap ] [ col gap ];
+    gap: 1rem .5rem;
+    justify-items: stretch;
+    width: 90%;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+}
+
+.game1{
+    display: flex;
+    grid-row: one/two;
+    grid-column: first/second;
+}
+
+.game2{
+    display: flex;
+    grid-row: one/two;
+    grid-column: second/third;
+}
+
+.game3{
+    display: flex;
+    grid-row: one/two;
+    grid-column: third/end;
+}
+
+.game4{
+    display: flex;
+    grid-row: two/three;
+    grid-column: first/second;
+}
+
+.game5{
+    display: flex;
+    grid-row: two/three;
+    grid-column: second/third;
+}
+
+.game6{
+    display: flex;
+    grid-row: two/three;
+    grid-column: third/end;
+}
+
+.game7{
+    display: flex;
+    grid-row: three/four;
+    grid-column: first/second;
+}
+
+.game8{
+    display: flex;
+    grid-row: three/four;
+    grid-column: second/third;
+}
+
+.transition{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
