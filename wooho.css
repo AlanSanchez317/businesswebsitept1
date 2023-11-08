@@ -9,7 +9,7 @@ body{
     background-color: white;
     position: sticky;
     top: 0px;
-	z-index: 2;
+    z-index: 2;
 }
 
 ul {
@@ -266,4 +266,10 @@ input::placeholder{
 
 .addtocartbutton:hover{
     background-color: #580000;
+}
+
+.controllertitle{
+    text-align: center;
+    color:#b60d0d;
+    font-size: xx-large;
 }
