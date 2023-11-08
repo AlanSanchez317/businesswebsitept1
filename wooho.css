@@ -7,6 +7,8 @@ body{
     align-items: center;
     justify-content: center; 
     background-color: white;
+    position: sticky;
+    top: 0px;
 }
 
 ul {
@@ -154,3 +156,113 @@ input::placeholder{
         border-radius: 20px;
 
       }
+    
+.controllergrid{
+    display: grid;
+    grid-template-rows: [one] 1fr [two] 1fr [three] 1fr [four] 1fr [five];
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [end];
+    padding: 5px;
+    gap: [ row gap ] [ col gap ];
+    gap: 1rem .5rem;
+    justify-items: stretch;
+    width: 90%;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+}
+
+.controller1{
+    display: flex;
+    grid-row: one/two;
+    grid-column: first/second;
+}
+
+.controller2{
+    display: flex;
+    grid-row: one/two;
+    grid-column: second/third;
+}
+
+.controller3{
+    display: flex;
+    grid-row: one/two;
+    grid-column: third/end;
+}
+
+.controller4{
+    display: flex;
+    grid-row: two/three;
+    grid-column: first/second;
+}
+
+.controller5{
+    display: flex;
+    grid-row: two/three;
+    grid-column: second/third;
+}
+
+.controller6{
+    display: flex;
+    grid-row: two/three;
+    grid-column: third/end;
+}
+
+.controller7{
+    display: flex;
+    grid-row: three/four;
+    grid-column: first/second;
+}
+
+.controller8{
+    display: flex;
+    grid-row: three/four;
+    grid-column: second/third;
+}
+
+.controller9{
+    display: flex;
+    grid-row: three/four;
+    grid-column: third/end;
+}
+
+.controller10{
+    display: flex;
+    grid-row: four/five;
+    grid-column: first/second;
+}
+
+.controller11{
+    display: flex;
+    grid-row: four/five;
+    grid-column: second/third;
+}
+
+.controller12{
+    display: flex;
+    grid-row: four/five;
+    grid-column: third/end;
+}
+
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+    color: #000;
+
+  }
+
+.addtocartbutton{
+    background-color: #aa0404;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.addtocartbutton:hover{
+    background-color: #580000;
+}
