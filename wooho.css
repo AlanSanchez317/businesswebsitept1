@@ -34,7 +34,7 @@ a {
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
-a:hover {
+.navbar a:hover {
     background-color: red;
     color: white;
     border-color: red;
@@ -127,20 +127,21 @@ margin-bottom: 10px;
     cursor: pointer;
 }
 
-input[type=text] {
+input[type=email] {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-        background-color: #131010;
+        background-color: #3b3b3b;
         border-radius: 15px;
-        border: #000 2px;
+        border: #000 10px solid;
         font-size: x-large;
         text-align: center;
+        color: white;
  }
 
 input::placeholder{
-    color: rgb(224, 27, 27);
+    color: rgb(255, 0, 0);
     font-weight: bold;
     opacity: 0.5;
 }
@@ -350,3 +351,50 @@ input::placeholder{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+.contactustext{
+    font-size: medium;
+    background-color: none;
+    color: black;
+    border: none;
+}
+
+.contactform{
+    text-align: center;
+}
+
+fieldset{
+    width: 400px;
+    border:#580000 2px solid;
+}
+
+.fieldset{
+display: flex;
+justify-content: center;
+
+}
+
+.buttoncenter a:hover{
+background-color: none;
+}
+
+.buttontest{
+    color: white;
+    background-color:  rgb(225, 82, 82);
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    height: 30px;
+    border-radius: 60px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.buttontest:hover{
+    background-color: rgb(146, 0, 0);
+    transition: background-color .2s;
+}
+
+.buttontestcenter{
+    text-align-last: center;
+}
